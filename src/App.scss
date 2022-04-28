@@ -1,0 +1,19 @@
+@import '../src/common/Color.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.a{
+    text-decoration: none;
+} 
+body{
+    background-color: $primary-color;
+}
+.Container{
+    margin: 0 40px;
+    
+}

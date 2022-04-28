@@ -1,0 +1,42 @@
+@import '../../common/Color.scss';
+.detail_Poster{
+    margin-right: 25px;
+}
+.detail_container{
+    display:flex;
+    justify-content:space-evenly;
+    color:$font_primary;
+    padding: 40px 0px;
+    font-weight: 400;
+}
+.movie-rating{
+
+    margin-top: 20px;
+    display: flex;
+    color: $font_secondary;
+    span{
+        margin-right: 20px;
+    }
+}
+
+.movie-titles{
+    font-size: 40px;
+    color: $font_primary;
+}
+.detail_Plot{
+    line-height: 1.8rem;
+    margin-top: 20px;
+}
+.detail_infor > div span:first-child{
+    padding: 10px 0;
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+    color: $font_secondary;
+}
+.detail_infor > div span{
+    color: $font_secondary;
+}
+.detail_Poster{
+    display: flex;
+}
